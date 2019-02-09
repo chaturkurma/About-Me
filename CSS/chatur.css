@@ -18,12 +18,14 @@ section {
 }
 
 .h1 {
-    color : whitesmoke;
-    border-style : dashed;
-    padding-top : 0.75em;
-    padding-bottom : 0.5em;
-    padding-left: 0.20em;
-    background-color : rgb(146, 167, 187);    
+    text-align: center;
+    font-size: 80px;
+    color : black;
+    border-style : ;
+    padding-top : ;
+    padding-bottom : ;
+    padding-left: ;
+    background-color : ;     
 }
 
 .footer{
