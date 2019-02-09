@@ -1,4 +1,4 @@
-body{
+body{ 
     font-family: 'Roboto Condensed', sans-serif;
     /*min-height: 75rem;*/
     padding-top: 4.5rem;
@@ -7,25 +7,33 @@ body{
 }
 
 a{
-    color: red;
+    color:black;
 }
 
 section {
     margin: 1rem;
     padding: 2rem;
-    background-color: lightgrey;
+    background-color: turquoise;
     border-radius: 2em;
+    color: black;
 }
 
 .h1 {
     text-align: center;
     font-size: 80px;
-    color : black;
+    color :black;
     border-style : ;
     padding-top : ;
     padding-bottom : ;
     padding-left: ;
     background-color : ;     
+}
+.h3 {
+    font-size: 60px;
+    color: black
+}
+.abc{
+    color: brown;
 }
 
 .footer{
@@ -60,5 +68,6 @@ section {
 }
 
 #links {
+    font-size: 15px
     grid-column-start: 1;
     grid-row-start: 1;
