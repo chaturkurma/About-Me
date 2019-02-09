@@ -13,9 +13,10 @@ a{
 section {
     margin: 1rem;
     padding: 2rem;
-    background-color: #FFF8DC;
-    border-radius: 2em;
+    background-color: lightgrey;
+    border-radius: 7em;
     color: black;
+    text-align:  center;
 }
 
 .h1 {
