@@ -64,9 +64,10 @@ section {
 }
 
 #video {
+    margin-left: -15px;
     grid-column-start: 1;
-    grid-row-start: 4;
-    margin-top: -1em;
+    grid-row-start: 2;
+    margin-top: 0em;
 }
 
 #links {
