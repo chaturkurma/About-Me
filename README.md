@@ -27,4 +27,5 @@ This Repository gives the information about me and my interests. This repo is us
 
  I am Chatur Veda Vyas Kurma. Currently pursuing my masters in Applied Computer Science in Northwest Missouri State University .
 
-- ![Hosted image](http://www.projectsjugaad.com/wp-content/uploads/2017/01/dhoni6.png "A big fan of M.S Dhoni")
+- ![Hosted image](http://www.projectsjugaad.com/wp-content/uploads/2017/01/dhoni6.png 
+"A big fan of M.S Dhoni")
