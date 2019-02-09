@@ -13,8 +13,8 @@ a{
 section {
     margin: 1rem;
     padding: 2rem;
-    background-color: lightblue;
-    border-radius: 1em;
+    background-color: lightgrey;
+    border-radius: 2em;
 }
 
 .h1 {
@@ -29,26 +29,28 @@ section {
 }
 
 .footer{
-    color: yellow;
+    color: red;
 }
 
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 25px;
     margin-top: 2em;
     grid-column-start: col-start 2;
   }
 
-#img-square{
-    width: 15rem;
-    height: 15rem;
+#img-circle{
+    -ms-ime-align: center;
+    width: 23rem;
+    height: 23rem;
     margin: 1rem;
+    align-content: center;
    
 }
 
 #profile{
-    background-color: white;
+    background-color: transparent;
 }
 
 #video {
