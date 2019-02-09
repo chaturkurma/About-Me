@@ -40,11 +40,11 @@ section {
     grid-column-start: col-start 2;
   }
 
-#img-circle{
+#img-square{
     width: 15rem;
     height: 15rem;
     margin: 1rem;
-    align-content: center;
+   
 }
 
 #profile{
