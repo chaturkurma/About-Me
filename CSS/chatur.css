@@ -11,6 +11,7 @@ a{
 }
 
 section {
+    margin-left: -5px;
     margin: 1rem;
     padding: 2rem;
     background-color: lightgrey;
@@ -69,6 +70,9 @@ section {
 }
 
 #links {
+    margin-left: 100px;
+    align-self: baseline;
     font-size: 15px
     grid-column-start: 1;
     grid-row-start: 1;
+}
