@@ -45,7 +45,7 @@ section {
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 25px;
+    padding: 10px;
     margin-top: 2em;
     grid-column-start: col-start 2;
   }
