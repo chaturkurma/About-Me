@@ -6,29 +6,36 @@ body{
     padding-right: 2rem;
 }
 
-a{
-    color:black;
-}
+
+
+
+
+
+
+
+
+
+
 
 section {
-    margin-left: -5px;
+    margin-left: -1px;
     margin: 1rem;
     padding: 2rem;
     background-color: lightgray;
     border-radius: 7em;
     color: black;
-    text-align:  left;
+    text-align:  center;
 }
 
 .h1 {
     text-align: center;
     font-size: 80px;
     color :black;
-    border-style : ;
-    padding-top : ;
-    padding-bottom : ;
-    padding-left: ;
-    background-color : ;     
+    border-style : 0;
+    padding-top : 0;
+    padding-bottom : 0 ;
+    padding-left: 0;
+    background-color: 0;     
 }
 .h3 {
     font-size: 60px;
@@ -52,8 +59,8 @@ section {
 
 #img-circle{
     -ms-ime-align: center;
-    width: 13rem;
-    height: 13rem;
+    width: 20rem;
+    height: 20rem;
     margin: 1rem;
     align-content: center;
    
@@ -72,9 +79,9 @@ section {
 
 #links {
     margin-left: 100px;
-    align-self: baseline;
-    font-size: 15px
+    font-size: 15px;
     grid-column-start: 1;
-    
     grid-row-start: 1;
 }
+
+
