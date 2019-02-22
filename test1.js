@@ -12,5 +12,6 @@ else{
     area=0.5*(Diagonala)*(Diagonalb);
 }
 return area;
+
     
  }

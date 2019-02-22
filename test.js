@@ -17,6 +17,7 @@ QUnit.test( "TestArea", function( assert )
             assert.equal( res, "6", "Area of Rhombus with these inputs will be 6" );
 });
 QUnit.test( "TestArea", function( assert ) 
+
 {
             var res = area(3,6);
             assert.equal( res, "7", "Area of Rhombus with these inputs will be 7" );
