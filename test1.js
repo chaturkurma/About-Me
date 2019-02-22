@@ -12,6 +12,9 @@ else{
     area=0.5*(Diagonala)*(Diagonalb);
 }
 return area;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 12b8d2cd0b5a9e37e17d83d003c5972d1517354d
     
  }
