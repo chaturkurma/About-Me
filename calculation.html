@@ -43,6 +43,9 @@ background-size: cover;background-position: center;background-repeat: no-repeat;
                     <li class="nav-item">
                       <a class="nav-link" href="calculation.html">Area</a>
                     </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="qunit.html">qunit</a>
+                    </li>
                   </ul>
                   <form class="form-inline mt-2 mt-md-0">
                     <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -59,18 +62,58 @@ background-size: cover;background-position: center;background-repeat: no-repeat;
                 <h1>Area of Rhombus</h1>
         
               <div class="container">
-                    <form name="myForm" onsubmit="myFunction()">
-                        Enter Diagonal a: <input type="text" name="Diagonal a" required><br>
-                        Enter Diagonal b: <input type="text" name="Diagonal b" required><br>
-                        <input type="submit" value="Submit">
-                      </form>
+                        Enter Diagonal a: <input type="text" id="Diagonala" required><br>
+                        Enter Diagonal b: <input type="text" id="Diagonalb" required><br>
+                        <button type="button" id="clicker" class="btn btn-primary">submit</button>
+                        <button id="wiper" class="btn btn-danger">CLear Storage</button>
+                        <p id="result"></p>
+                      
                       
                       <script>
-                      function myFunction() {
-                      var x = document.forms["myForm"]["Diagonal a"].value;
-                      var y = document.forms["myForm"]["Diagonal b"].value;
-                       window.alert("Area Of Your Given Rhombus is : " + 1/2*(x*y));
-                      }
+                      console.log('SCRIPT START')
+
+    console.log('Declare testable functions......................')
+    console.log('Declare event listeners .......................')
+
+    window.addEventListener('load', (event) => {
+      console.log('  Starting initialization ')
+      if (localStorage.getItem('number1')) {
+        document.getElementById('Diagonala').value = parseInt(localStorage.number1)
+        console.log(`  Stored num1 = ${localStorage.number1}`)
+      }
+      if (localStorage.getItem('number2')) {
+        document.getElementById('Diagonalb').value = parseInt(localStorage.number2)
+        console.log(`  Stored num2 = ${localStorage.number2}`)
+      }
+      console.log('  Finished initialization')
+    })
+
+    document.getElementById('clicker').addEventListener('click', () => {
+      console.log('  Starting clicker click handler')
+      const origCount = parseInt(localStorage.getItem('countOfClicks')) || 0
+      const i = parseInt(document.getElementById('Diagonala').value)
+      console.log('i=' + i)
+      const j = parseInt(document.getElementById('Diagonalb').value)
+      console.log('j=' + j)
+      const ct = origCount + 1
+      const ans = 'your rhombus area is ' + 0.5*i*j + '. This has been run ' + ct + ' times.'
+      document.getElementById('result').innerHTML = ans
+      localStorage.setItem('countOfClicks', ct)  // define a string key to store + its value
+      localStorage.setItem('number1', i)
+      localStorage.setItem('number2', j)
+      console.log('  Finished clicker click handler')
+    })
+
+    document.getElementById('wiper').addEventListener('click', () => {
+      console.log('  Starting wiper click handler')
+      localStorage.removeItem('countOfClicks')
+      localStorage.removeItem('number1')
+      localStorage.removeItem('number2')
+      console.log('  Finished wiper click handler - localStorage entries removed')
+    })
+
+    console.log('SCRIPT END')
+
                       </script>
               </div>
 </section>
