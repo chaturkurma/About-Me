@@ -14,7 +14,7 @@ section {
     background-color: lightgray;
     border-radius: 7em;
     color: black;
-    text-align:  center;
+    text-align:  left;
 }
 
 .h1 {
@@ -27,6 +27,7 @@ section {
     padding-left: 0;
     background-color: 0;     
 }
+
 .h3 {
     font-size: 60px;
     color: black
@@ -46,6 +47,7 @@ section {
     margin-top: 2em;
     grid-column-start: col-start 2;
   }
+  
 
 #img-circle{
     -ms-ime-align: center;
